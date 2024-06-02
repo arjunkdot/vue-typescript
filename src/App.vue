@@ -46,6 +46,7 @@ export default defineComponent({
   </header>
   <main>
     <JobList :jobs="jobs" :order="order" />
+    <small>Credits: Shaun (<a href="https://netninja.dev/" target="_blank">Net Ninja</a>)</small>
   </main>
 </template>
 
@@ -77,5 +78,9 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
+}
+small {
+  display: block;
+  text-align: center;
 }
 </style>
